@@ -10,6 +10,8 @@ Weather conditions and their correlation with accident rates
 Road surface conditions and visibility factors
 Geographic hotspots and high-risk areas
 Contributing factors and accident severity patterns
+
+
 📊 Features
 Data Processing: Clean and standardize accident data from multiple sources
 Statistical Analysis: Identify significant patterns and correlations
@@ -19,6 +21,7 @@ Time-series analysis of accident trends
 Weather condition distributions
 Road condition impact analysis
 Reporting: Generate automated insights and safety recommendations
+
 🛠️ Installation
 # Clone the repository
 git clone https://github.com/yourusername/traffic-accident-analysis.git
@@ -31,6 +34,8 @@ pip install -r requirements.txt
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
+
+
 📋 Requirements
 pandas>=1.3.0
 numpy>=1.20.0
@@ -41,6 +46,8 @@ folium>=0.12.0
 scikit-learn>=1.0.0
 geopandas>=0.9.0
 jupyter>=1.0.0
+
+
 🚀 Usage
 Basic Analysis
 from src.accident_analyzer import AccidentAnalyzer
@@ -65,6 +72,8 @@ Available notebooks:
 03_weather_conditions.ipynb - Weather impact on accidents
 04_hotspot_mapping.ipynb - Geographic analysis and mapping
 05_predictive_modeling.ipynb - Risk prediction models
+
+
 📁 Project Structure
 traffic-accident-analysis/
 ├── data/
@@ -83,6 +92,8 @@ traffic-accident-analysis/
 │   └── reports/            # Analysis reports
 ├── tests/                  # Unit tests
 └── requirements.txt
+
+
 📈 Key Insights
 The analysis typically reveals:
 
@@ -91,20 +102,25 @@ Weather impact: Rain and fog increase accident likelihood by 40-60%
 Seasonal patterns: Winter months show increased severity
 Road conditions: Wet/icy surfaces correlate with 3x higher accident rates
 Geographic hotspots: Urban intersections and highway merges
+
+
 🗺️ Visualizations
 Heatmaps: Geographic distribution of accidents
 Time Series: Hourly, daily, and seasonal trends
 Correlation Matrix: Relationships between contributing factors
 Interactive Maps: Clickable hotspots with detailed information
 Statistical Plots: Distribution analysis and hypothesis testing
+
+
 🔍 Future Enhancements
 Machine learning models for accident prediction
 Real-time data integration
 Mobile app for risk alerts
 Integration with traffic management systems
 Advanced statistical modeling (Bayesian analysis)
+
+
 📧 Contact
 For questions or collaboration opportunities:
-
 Email: kunithimeghana004@gmail.com
 LinkedIn: https://www.linkedin.com/in/kunithi-meghana/
